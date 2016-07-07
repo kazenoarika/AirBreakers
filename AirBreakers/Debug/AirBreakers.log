@@ -1,0 +1,293 @@
+﻿  seqPlay.cpp
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\seqplay.cpp(40): error C2660: 'Menu::SetMenu' : 関数に 4 個の引数を指定できません。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\seqplay.cpp(101): warning C4244: '初期化中' : 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\seqplay.cpp(106): error C2039: 'GetTransform' : 'Menu' のメンバーではありません。
+          c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menu.h(6) : 'Menu' の宣言を確認してください。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\seqplay.cpp(106): error C2228: '.GetX' の左側はクラス、構造体、共用体でなければなりません
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\seqplay.cpp(107): error C2039: 'GetTransform' : 'Menu' のメンバーではありません。
+          c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menu.h(6) : 'Menu' の宣言を確認してください。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\seqplay.cpp(107): error C2228: '.GetY' の左側はクラス、構造体、共用体でなければなりません
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\seqplay.cpp(152): warning C4244: '初期化中' : 'double' から 'const float' への変換です。データが失われる可能性があります。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\seqplay.cpp(161): warning C4244: '引数' : 'const float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\seqplay.cpp(162): warning C4244: '引数' : 'const float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\seqplay.cpp(187): error C2065: 'mPhaseMgr' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\seqplay.cpp(187): error C2228: '.Update' の左側はクラス、構造体、共用体でなければなりません
+          型は ''unknown-type'' です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\seqplay.cpp(188): error C2065: 'mPhaseMgr' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\seqplay.cpp(188): error C2228: '.GetEnd' の左側はクラス、構造体、共用体でなければなりません
+          型は ''unknown-type'' です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\seqplay.cpp(195): error C2065: 'mPhaseMgr' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\seqplay.cpp(195): error C2228: '.GetClear' の左側はクラス、構造体、共用体でなければなりません
+          型は ''unknown-type'' です。
+  TitleMgr.cpp
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\titlemgr.cpp(17): error C2084: 関数 'void CTitleMgr::Initialize(void)' は既に本体を持っています。
+          c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\titlemgr.h(16) : 'Initialize' の前の定義を確認してください
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\titlemgr.cpp(25): error C2084: 関数 'void CTitleMgr::Update(void)' は既に本体を持っています。
+          c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\titlemgr.h(19) : 'Update' の前の定義を確認してください
+  PlayerUnit.cpp
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\playerunit.cpp(26): error C2440: '=' : 'std::shared_ptr<_Ty>' から 'Input *' に変換できません。
+          with
+          [
+              _Ty=Input
+          ]
+          この変換を実行可能なユーザー定義変換演算子がないか、または演算子を呼び出せません。
+  PhasePlayWarning.cpp
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\phaseplaywarning.cpp(9): error C2065: 'stdCount' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\phaseplaywarning.cpp(16): error C2065: 'stdCount' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\phaseplaywarning.cpp(22): error C2065: 'stdCount' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\phaseplaywarning.cpp(25): error C2065: 'stdCount' : 定義されていない識別子です。
+  PhasePlayStart.cpp
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\phaseplaystart.cpp(10): error C2065: 'stdCount' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\phaseplaystart.cpp(19): error C2065: 'stdCount' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\phaseplaystart.cpp(25): error C2065: 'stdCount' : 定義されていない識別子です。
+  PhasePlayResult.cpp
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\phaseplayresult.cpp(42): error C2660: 'Menu::SetMenu' : 関数に 4 個の引数を指定できません。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\phaseplayresult.cpp(47): error C2065: 'stdCount' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\phaseplayresult.cpp(52): error C2065: 'stdCount' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\phaseplayresult.cpp(55): error C2065: 'stdCount' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\phaseplayresult.cpp(57): error C2065: 'mPhaseChanger' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\phaseplayresult.cpp(57): error C2227: '->ChangePhase' : 左側がクラス、構造体、共用体、ジェネリック型へのポインターではありません。
+          型は ''unknown-type'' です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\phaseplayresult.cpp(57): error C2065: 'ePhaseClear' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\phaseplayresult.cpp(110): error C2065: 'stdCount' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\phaseplayresult.cpp(119): error C2065: 'mStage' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\phaseplayresult.cpp(119): error C2227: '->GetStatus' : 左側がクラス、構造体、共用体、ジェネリック型へのポインターではありません。
+          型は ''unknown-type'' です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\phaseplayresult.cpp(119): error C2228: '.HiScore' の左側はクラス、構造体、共用体でなければなりません
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\phaseplayresult.cpp(129): error C2065: 'stdCount' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\phaseplayresult.cpp(131): error C2039: 'GetTransform' : 'Menu' のメンバーではありません。
+          c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menu.h(6) : 'Menu' の宣言を確認してください。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\phaseplayresult.cpp(131): error C2228: '.GetX' の左側はクラス、構造体、共用体でなければなりません
+          c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menu.h(6) : 'Menu' の宣言を確認してください。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\phaseplayresult.cpp(131): error C2228: '.GetY' の左側はクラス、構造体、共用体でなければなりません
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\phaseplayresult.cpp(132): error C2039: 'GetTransform' : 'Menu' のメンバーではありません。
+          c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menu.h(6) : 'Menu' の宣言を確認してください。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\phaseplayresult.cpp(132): error C2228: '.GetX' の左側はクラス、構造体、共用体でなければなりません
+          c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menu.h(6) : 'Menu' の宣言を確認してください。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\phaseplayresult.cpp(132): error C2228: '.GetY' の左側はクラス、構造体、共用体でなければなりません
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\phaseplayresult.cpp(139): error C2039: 'GetTransform' : 'Menu' のメンバーではありません。
+          c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menu.h(6) : 'Menu' の宣言を確認してください。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\phaseplayresult.cpp(139): error C2228: '.GetX' の左側はクラス、構造体、共用体でなければなりません
+          c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menu.h(6) : 'Menu' の宣言を確認してください。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\phaseplayresult.cpp(139): error C2228: '.GetY' の左側はクラス、構造体、共用体でなければなりません
+  PhasePlayGameover.cpp
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\phaseplaygameover.cpp(7): error C2065: 'stdCount' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\phaseplaygameover.cpp(13): error C2065: 'stdCount' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\phaseplaygameover.cpp(14): error C2065: 'mPhaseChanger' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\phaseplaygameover.cpp(14): error C2227: '->ChangePhase' : 左側がクラス、構造体、共用体、ジェネリック型へのポインターではありません。
+          型は ''unknown-type'' です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\phaseplaygameover.cpp(14): error C2065: 'ePhaseGameOver' : 定義されていない識別子です。
+  PhasePlayClear.cpp
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\phaseplayclear.cpp(8): error C2065: 'stdCount' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\phaseplayclear.cpp(13): error C2065: 'stdCount' : 定義されていない識別子です。
+  PasPlay.cpp
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\pasplay.cpp(24): error C2440: '=' : 'std::shared_ptr<_Ty>' から 'Input *' に変換できません。
+          with
+          [
+              _Ty=Input
+          ]
+          この変換を実行可能なユーザー定義変換演算子がないか、または演算子を呼び出せません。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\pasplay.cpp(103): error C2065: 'mStage' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\pasplay.cpp(103): error C2227: '->HiScoreUpdate' : 左側がクラス、構造体、共用体、ジェネリック型へのポインターではありません。
+          型は ''unknown-type'' です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\pasplay.cpp(104): error C2065: 'mStage' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\pasplay.cpp(104): error C2227: '->HiDestroyUpdate' : 左側がクラス、構造体、共用体、ジェネリック型へのポインターではありません。
+          型は ''unknown-type'' です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\pasplay.cpp(128): warning C4244: '初期化中' : 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\pasplay.cpp(157): error C2065: 'mStage' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\pasplay.cpp(157): error C2227: '->GetStatus' : 左側がクラス、構造体、共用体、ジェネリック型へのポインターではありません。
+          型は ''unknown-type'' です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\pasplay.cpp(157): error C2228: '.HiScore' の左側はクラス、構造体、共用体でなければなりません
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\pasplay.cpp(159): error C2039: 'stdCount' : 'PasPlay' のメンバーではありません。
+          c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\pasplay.h(13) : 'PasPlay' の宣言を確認してください。
+  OptionInTitle.cpp
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\optionintitle.cpp(20): error C2653: 'Player' : 識別子がクラス名でも名前空間名でもありません。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\optionintitle.cpp(20): error C2227: '->GetSubweponbox' : 左側がクラス、構造体、共用体、ジェネリック型へのポインターではありません。
+          型は ''unknown-type'' です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\optionintitle.cpp(20): error C2227: '->Draw' : 左側がクラス、構造体、共用体、ジェネリック型へのポインターではありません。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\optionintitle.cpp(20): error C3861: 'Instance': 識別子が見つかりませんでした
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\optionintitle.cpp(24): error C2065: 'pInput' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\optionintitle.cpp(24): error C2227: '->IsPushShot' : 左側がクラス、構造体、共用体、ジェネリック型へのポインターではありません。
+          型は ''unknown-type'' です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\optionintitle.cpp(25): error C3861: 'GoToMenu': 識別子が見つかりませんでした
+  MenuInTitle.cpp
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(25): warning C4244: '引数' : 'int' から 'float' への変換です。データが失われる可能性があります。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(25): warning C4244: '引数' : 'const int' から 'float' への変換です。データが失われる可能性があります。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(36): error C2065: 'GhBackground' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(39): error C2065: 'mMenumgr' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(39): error C2228: '.GetSelectMax' の左側はクラス、構造体、共用体でなければなりません
+          型は ''unknown-type'' です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(40): error C2065: 'mMenumgr' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(40): error C2228: '.GetCurrent' の左側はクラス、構造体、共用体でなければなりません
+          型は ''unknown-type'' です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(42): error C2065: 'mMenumgr' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(42): error C2228: '.GetMenu' の左側はクラス、構造体、共用体でなければなりません
+          型は ''unknown-type'' です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(42): error C2227: '->GetTransform' : 左側がクラス、構造体、共用体、ジェネリック型へのポインターではありません。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(42): error C2228: '.GetX' の左側はクラス、構造体、共用体でなければなりません
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(42): error C2228: '.GetY' の左側はクラス、構造体、共用体でなければなりません
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(42): error C2065: 'GhMenu' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(44): error C2065: 'mMenumgr' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(44): error C2228: '.GetCurrentMenu' の左側はクラス、構造体、共用体でなければなりません
+          型は ''unknown-type'' です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(44): error C2227: '->GetTransform' : 左側がクラス、構造体、共用体、ジェネリック型へのポインターではありません。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(44): error C2228: '.GetX' の左側はクラス、構造体、共用体でなければなりません
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(44): error C2228: '.GetY' の左側はクラス、構造体、共用体でなければなりません
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(44): error C2065: 'GhCursol' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(53): error C2065: 'mMenumgr' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(53): error C2228: '.GetCurrentMenu' の左側はクラス、構造体、共用体でなければなりません
+          型は ''unknown-type'' です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(53): error C2227: '->GetText' : 左側がクラス、構造体、共用体、ジェネリック型へのポインターではありません。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(53): error C2228: '.c_str' の左側はクラス、構造体、共用体でなければなりません
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(59): error C2065: 'pInput' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(59): error C2227: '->IsPushUp' : 左側がクラス、構造体、共用体、ジェネリック型へのポインターではありません。
+          型は ''unknown-type'' です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(60): error C2065: 'pInput' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(60): error C2227: '->IsPushUp' : 左側がクラス、構造体、共用体、ジェネリック型へのポインターではありません。
+          型は ''unknown-type'' です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(61): error C2065: 'pInput' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(61): error C2227: '->IsPushUp' : 左側がクラス、構造体、共用体、ジェネリック型へのポインターではありません。
+          型は ''unknown-type'' です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(62): error C2065: 'mAudio' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(62): error C2227: '->Play' : 左側がクラス、構造体、共用体、ジェネリック型へのポインターではありません。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(63): error C2065: 'mMenumgr' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(63): error C2228: '.CurrentUp' の左側はクラス、構造体、共用体でなければなりません
+          型は ''unknown-type'' です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(67): error C2065: 'pInput' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(67): error C2227: '->IsPushDown' : 左側がクラス、構造体、共用体、ジェネリック型へのポインターではありません。
+          型は ''unknown-type'' です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(68): error C2065: 'pInput' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(68): error C2227: '->IsPushDown' : 左側がクラス、構造体、共用体、ジェネリック型へのポインターではありません。
+          型は ''unknown-type'' です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(69): error C2065: 'mAudio' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(69): error C2227: '->Play' : 左側がクラス、構造体、共用体、ジェネリック型へのポインターではありません。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(70): error C2065: 'mMenumgr' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(70): error C2228: '.CurrentDown' の左側はクラス、構造体、共用体でなければなりません
+          型は ''unknown-type'' です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(74): error C2065: 'pInput' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(74): error C2227: '->IsPushShot' : 左側がクラス、構造体、共用体、ジェネリック型へのポインターではありません。
+          型は ''unknown-type'' です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(75): error C2065: 'mAudio' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(75): error C2227: '->Play' : 左側がクラス、構造体、共用体、ジェネリック型へのポインターではありません。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(76): error C2065: 'mMenumgr' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(76): error C2228: '.GetCurrent' の左側はクラス、構造体、共用体でなければなりません
+          型は ''unknown-type'' です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(79): error C2065: 'mSceneChanger' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(79): error C2227: '->ChangeScene' : 左側がクラス、構造体、共用体、ジェネリック型へのポインターではありません。
+          型は ''unknown-type'' です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(82): error C3861: 'GoToLoad': 識別子が見つかりませんでした
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(85): error C2065: 'flgEerror' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(96): error C2065: 'pInput' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(96): error C2227: '->IsPushBom' : 左側がクラス、構造体、共用体、ジェネリック型へのポインターではありません。
+          型は ''unknown-type'' です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menuintitle.cpp(97): error C3861: 'GoToTitle': 識別子が見つかりませんでした
+  LoadInTitle.cpp
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\loadintitle.cpp(14): error C2065: 'GhBackground' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\loadintitle.cpp(29): error C2065: 'mMenumgr' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\loadintitle.cpp(29): error C2228: '.SetCurrent' の左側はクラス、構造体、共用体でなければなりません
+          型は ''unknown-type'' です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\loadintitle.cpp(30): error C2065: 'mMenumgr' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\loadintitle.cpp(30): error C2228: '.SetSelectMax' の左側はクラス、構造体、共用体でなければなりません
+          型は ''unknown-type'' です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\loadintitle.cpp(37): error C2065: 'mMenumgr' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\loadintitle.cpp(37): error C2228: '.GetMenu' の左側はクラス、構造体、共用体でなければなりません
+          型は ''unknown-type'' です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\loadintitle.cpp(37): error C2227: '->SetMenu' : 左側がクラス、構造体、共用体、ジェネリック型へのポインターではありません。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\loadintitle.cpp(40): error C2065: 'state' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\loadintitle.cpp(40): error C2065: 'LOAD' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\loadintitle.cpp(46): error C2065: 'GhBackground' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\loadintitle.cpp(50): error C2065: 'mMenumgr' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\loadintitle.cpp(50): error C2228: '.GetCurrentMenu' の左側はクラス、構造体、共用体でなければなりません
+          型は ''unknown-type'' です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\loadintitle.cpp(50): error C2227: '->GetTransform' : 左側がクラス、構造体、共用体、ジェネリック型へのポインターではありません。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\loadintitle.cpp(50): error C2228: '.GetX' の左側はクラス、構造体、共用体でなければなりません
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\loadintitle.cpp(51): error C2065: 'mMenumgr' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\loadintitle.cpp(51): error C2228: '.GetCurrentMenu' の左側はクラス、構造体、共用体でなければなりません
+          型は ''unknown-type'' です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\loadintitle.cpp(51): error C2227: '->GetTransform' : 左側がクラス、構造体、共用体、ジェネリック型へのポインターではありません。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\loadintitle.cpp(51): error C2228: '.GetY' の左側はクラス、構造体、共用体でなければなりません
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\loadintitle.cpp(67): error C2065: 'pInput' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\loadintitle.cpp(67): error C2227: '->IsPushUp' : 左側がクラス、構造体、共用体、ジェネリック型へのポインターではありません。
+          型は ''unknown-type'' です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\loadintitle.cpp(68): error C2065: 'mMenumgr' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\loadintitle.cpp(68): error C2228: '.CurrentUp' の左側はクラス、構造体、共用体でなければなりません
+          型は ''unknown-type'' です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\loadintitle.cpp(70): error C2065: 'pInput' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\loadintitle.cpp(70): error C2227: '->IsPushDown' : 左側がクラス、構造体、共用体、ジェネリック型へのポインターではありません。
+          型は ''unknown-type'' です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\loadintitle.cpp(71): error C2065: 'mMenumgr' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\loadintitle.cpp(71): error C2228: '.CurrentDown' の左側はクラス、構造体、共用体でなければなりません
+          型は ''unknown-type'' です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\loadintitle.cpp(73): error C2065: 'pInput' : 定義されていない識別子です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\loadintitle.cpp(73): error C2227: '->IsPushBom' : 左側がクラス、構造体、共用体、ジェネリック型へのポインターではありません。
+          型は ''unknown-type'' です。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\loadintitle.cpp(74): error C3861: 'GoToMenu': 識別子が見つかりませんでした
+  IntervalSubwepon.cpp
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\intervalsubwepon.cpp(26): error C2440: '=' : 'std::shared_ptr<_Ty>' から 'Input *' に変換できません。
+          with
+          [
+              _Ty=Input
+          ]
+          この変換を実行可能なユーザー定義変換演算子がないか、または演算子を呼び出せません。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\intervalsubwepon.cpp(46): error C2660: 'Menu::SetMenu' : 関数に 4 個の引数を指定できません。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\intervalsubwepon.cpp(62): warning C4244: '引数' : 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\intervalsubwepon.cpp(64): error C2039: 'GetTransform' : 'Menu' のメンバーではありません。
+          c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menu.h(6) : 'Menu' の宣言を確認してください。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\intervalsubwepon.cpp(64): error C2228: '.GetX' の左側はクラス、構造体、共用体でなければなりません
+          c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menu.h(6) : 'Menu' の宣言を確認してください。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\intervalsubwepon.cpp(64): error C2228: '.GetY' の左側はクラス、構造体、共用体でなければなりません
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\intervalsubwepon.cpp(65): error C2039: 'GetTransform' : 'Menu' のメンバーではありません。
+          c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menu.h(6) : 'Menu' の宣言を確認してください。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\intervalsubwepon.cpp(65): error C2228: '.GetX' の左側はクラス、構造体、共用体でなければなりません
+          c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menu.h(6) : 'Menu' の宣言を確認してください。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\intervalsubwepon.cpp(65): error C2228: '.GetY' の左側はクラス、構造体、共用体でなければなりません
+  IntervalStageSelect.cpp
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\intervalstageselect.cpp(23): error C2660: 'Menu::SetMenu' : 関数に 4 個の引数を指定できません。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\intervalstageselect.cpp(46): error C2039: 'GetTransform' : 'Menu' のメンバーではありません。
+          c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menu.h(6) : 'Menu' の宣言を確認してください。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\intervalstageselect.cpp(46): error C2228: '.GetX' の左側はクラス、構造体、共用体でなければなりません
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\intervalstageselect.cpp(47): error C2039: 'GetTransform' : 'Menu' のメンバーではありません。
+          c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menu.h(6) : 'Menu' の宣言を確認してください。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\intervalstageselect.cpp(47): error C2228: '.GetY' の左側はクラス、構造体、共用体でなければなりません
+  IntervalSave.cpp
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\intervalsave.cpp(21): error C2440: '=' : 'std::shared_ptr<_Ty>' から 'Input *' に変換できません。
+          with
+          [
+              _Ty=Input
+          ]
+          この変換を実行可能なユーザー定義変換演算子がないか、または演算子を呼び出せません。
+  IntervalMenu.cpp
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\intervalmenu.cpp(20): error C2440: '=' : 'std::shared_ptr<_Ty>' から 'Input *' に変換できません。
+          with
+          [
+              _Ty=Input
+          ]
+          この変換を実行可能なユーザー定義変換演算子がないか、または演算子を呼び出せません。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\intervalmenu.cpp(48): error C2660: 'Menu::SetMenu' : 関数に 4 個の引数を指定できません。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\intervalmenu.cpp(78): error C2039: 'GetTransform' : 'Menu' のメンバーではありません。
+          c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menu.h(6) : 'Menu' の宣言を確認してください。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\intervalmenu.cpp(78): error C2228: '.GetX' の左側はクラス、構造体、共用体でなければなりません
+          c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menu.h(6) : 'Menu' の宣言を確認してください。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\intervalmenu.cpp(79): error C2039: 'GetTransform' : 'Menu' のメンバーではありません。
+          c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\menu.h(6) : 'Menu' の宣言を確認してください。
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\intervalmenu.cpp(79): error C2228: '.GetY' の左側はクラス、構造体、共用体でなければなりません
+  IntervalMaterial.cpp
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\intervalmaterial.cpp(20): error C2440: '=' : 'std::shared_ptr<_Ty>' から 'Input *' に変換できません。
+          with
+          [
+              _Ty=Input
+          ]
+          この変換を実行可能なユーザー定義変換演算子がないか、または演算子を呼び出せません。
+  Images.cpp
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\images.cpp(18): error C2511: 'int CImages::SetImages(const std::string)' : オーバーロードされたメンバー関数が 'CImages' にありません。
+          c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\images.h(5) : 'CImages' の宣言を確認してください。
+  BaseInterval.cpp
+c:\users\arika\documents\visual studio 2015\projects\airbreakers\airbreakers\baseinterval.cpp(8): error C2440: '=' : 'std::shared_ptr<_Ty>' から 'Input *' に変換できません。
+          with
+          [
+              _Ty=Input
+          ]
+          この変換を実行可能なユーザー定義変換演算子がないか、または演算子を呼び出せません。
+  Input.cpp
+c1xx : fatal error C1083: ソース ファイルを開けません。'..\..\src\Input.cpp': No such file or directory
+  コードを生成中...

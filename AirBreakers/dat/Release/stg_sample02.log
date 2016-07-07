@@ -1,0 +1,128 @@
+﻿2015/02/06 12:04:14 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\arika\Documents\Visual Studio 2010\Projects\stg_sample02\stg_sample02\stg_sample02.vcxproj" (build ターゲット)。
+     1>InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "Release\AirBreakers.unsuccessfulbuild" を作成しています。
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\DxLib\DxLib_VC /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\Input.cpp Background.cpp BaseScene.cpp Boss.cpp Bullet.cpp burn.cpp cloud.cpp effect.cpp Enemy.cpp fps.cpp Game.cpp ISceneChanger.cpp matBackGround.cpp Material.cpp Materialbox.cpp MenuMgr.cpp Player.cpp SceneMgr.cpp seqInterval.cpp main.cpp Menu.cpp Object.cpp Resouce.cpp seqPlay.cpp Stage.cpp Stage01.cpp StageMgr.cpp Subweponbox.cpp PlayerUnit.cpp ScoreBoard.cpp seqClear.cpp seqTest.cpp Scene.cpp SubWepon.cpp seqTitle.cpp Unit.cpp UnitAdmin.cpp View.cpp
+         Input.cpp
+         Background.cpp
+         BaseScene.cpp
+         Boss.cpp
+         Bullet.cpp
+         burn.cpp
+         cloud.cpp
+         effect.cpp
+         Enemy.cpp
+         fps.cpp
+         Game.cpp
+         ISceneChanger.cpp
+         matBackGround.cpp
+         Material.cpp
+         Materialbox.cpp
+         MenuMgr.cpp
+         Player.cpp
+         SceneMgr.cpp
+         seqInterval.cpp
+         main.cpp
+         コンパイル中...
+         Menu.cpp
+     1>Menu.cpp(22): warning C4244: '引数' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>Menu.cpp(22): warning C4244: '引数' : 'double' から 'int' への変換です。データが失われる可能性があります。
+         Object.cpp
+     1>Object.cpp(81): warning C4244: '引数' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>Object.cpp(81): warning C4244: '引数' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>Object.cpp(109): warning C4244: '引数' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>Object.cpp(109): warning C4244: '引数' : 'double' から 'int' への変換です。データが失われる可能性があります。
+         Resouce.cpp
+         seqPlay.cpp
+         Stage.cpp
+         Stage01.cpp
+         StageMgr.cpp
+         Subweponbox.cpp
+         PlayerUnit.cpp
+     1>PlayerUnit.cpp(107): warning C4244: '引数' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>PlayerUnit.cpp(107): warning C4244: '引数' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>PlayerUnit.cpp(113): warning C4244: '引数' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>PlayerUnit.cpp(113): warning C4244: '引数' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>PlayerUnit.cpp(153): warning C4244: '引数' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>PlayerUnit.cpp(153): warning C4244: '引数' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>PlayerUnit.cpp(160): warning C4244: '引数' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>PlayerUnit.cpp(160): warning C4244: '引数' : 'double' から 'int' への変換です。データが失われる可能性があります。
+         ScoreBoard.cpp
+         seqClear.cpp
+         seqTest.cpp
+         Scene.cpp
+         SubWepon.cpp
+         seqTitle.cpp
+     1>seqTitle.cpp(133): warning C4244: '引数' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>seqTitle.cpp(133): warning C4244: '引数' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>seqTitle.cpp(137): warning C4244: '引数' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>seqTitle.cpp(137): warning C4244: '引数' : 'double' から 'int' への変換です。データが失われる可能性があります。
+         Unit.cpp
+     1>Unit.cpp(36): warning C4244: '引数' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>Unit.cpp(36): warning C4244: '引数' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>Unit.cpp(36): warning C4244: '引数' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>Unit.cpp(36): warning C4244: '引数' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>Unit.cpp(37): warning C4244: '引数' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>Unit.cpp(37): warning C4244: '引数' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>Unit.cpp(37): warning C4244: '引数' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>Unit.cpp(37): warning C4244: '引数' : 'double' から 'int' への変換です。データが失われる可能性があります。
+         UnitAdmin.cpp
+     1>UnitAdmin.cpp(53): warning C4244: '初期化中' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>UnitAdmin.cpp(54): warning C4244: '初期化中' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>UnitAdmin.cpp(60): warning C4244: '初期化中' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>UnitAdmin.cpp(61): warning C4244: '初期化中' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>UnitAdmin.cpp(136): warning C4101: 'tmpEnemy' : ローカル変数は 1 度も使われていません。
+         View.cpp
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\arika\Documents\Visual Studio 2010\Projects\stg_sample02\Release\AirBreakers.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\DxLib\DxLib_VC kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\AirBreakers.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\arika\Documents\Visual Studio 2010\Projects\stg_sample02\Release\AirBreakers.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\arika\Documents\Visual Studio 2010\Projects\stg_sample02\Release\AirBreakers.lib" /MACHINE:X86 Release\Input.obj
+         Release\Background.obj
+         Release\BaseScene.obj
+         Release\Boss.obj
+         Release\Bullet.obj
+         Release\burn.obj
+         Release\cloud.obj
+         Release\effect.obj
+         Release\Enemy.obj
+         Release\fps.obj
+         Release\Game.obj
+         Release\ISceneChanger.obj
+         Release\matBackGround.obj
+         Release\Material.obj
+         Release\Materialbox.obj
+         Release\MenuMgr.obj
+         Release\Player.obj
+         Release\SceneMgr.obj
+         Release\seqInterval.obj
+         Release\main.obj
+         Release\Menu.obj
+         Release\Object.obj
+         Release\Resouce.obj
+         Release\seqPlay.obj
+         Release\Stage.obj
+         Release\Stage01.obj
+         Release\StageMgr.obj
+         Release\Subweponbox.obj
+         Release\PlayerUnit.obj
+         Release\ScoreBoard.obj
+         Release\seqClear.obj
+         Release\seqTest.obj
+         Release\Scene.obj
+         Release\SubWepon.obj
+         Release\seqTitle.obj
+         Release\Unit.obj
+         Release\UnitAdmin.obj
+         Release\View.obj
+         コード生成しています。
+         コード生成が終了しました。
+         stg_sample02.vcxproj -> C:\Users\arika\Documents\Visual Studio 2010\Projects\stg_sample02\Release\AirBreakers.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\arika\Documents\Visual Studio 2010\Projects\stg_sample02\Release\AirBreakers.exe;#1" /manifest Release\AirBreakers.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         ファイル "Release\AirBreakers.unsuccessfulbuild" を削除しています。
+         "Release\AirBreakers.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "C:\Users\arika\Documents\Visual Studio 2010\Projects\stg_sample02\stg_sample02\stg_sample02.vcxproj" (build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:23.18

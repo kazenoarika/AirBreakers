@@ -1,0 +1,103 @@
+﻿2015/02/23 2:25:31 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\arika\Documents\Visual Studio 2010\Projects\AirBreakers\AirBreakers\AirBreakers.vcxproj" (build ターゲット)。
+     1>InitializeBuildStatus:
+         "Release\AirBreakers.unsuccessfulbuild" のタッチ タスクを実行しています。
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\arika\Documents\Visual Studio 2010\Projects\AirBreakers\AirBreakers\DxLib_VC" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt EnemyMove.cpp
+         EnemyMove.cpp
+     1>EnemyMove.cpp(13): warning C4305: '=' : 'double' から 'float' へ切り詰めます。
+     1>EnemyMove.cpp(21): warning C4305: '=' : 'double' から 'float' へ切り詰めます。
+     1>EnemyMove.cpp(29): warning C4305: '=' : 'double' から 'float' へ切り詰めます。
+     1>EnemyMove.cpp(45): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>EnemyMove.cpp(56): warning C4305: '=' : 'double' から 'float' へ切り詰めます。
+     1>EnemyMove.cpp(63): warning C4305: '=' : 'double' から 'float' へ切り詰めます。
+     1>EnemyMove.cpp(71): warning C4305: '=' : 'double' から 'float' へ切り詰めます。
+     1>EnemyMove.cpp(78): warning C4305: '=' : 'double' から 'float' へ切り詰めます。
+     1>EnemyMove.cpp(86): warning C4305: '=' : 'double' から 'float' へ切り詰めます。
+     1>EnemyMove.cpp(93): warning C4305: '=' : 'double' から 'float' へ切り詰めます。
+     1>EnemyMove.cpp(101): warning C4305: '=' : 'double' から 'float' へ切り詰めます。
+     1>EnemyMove.cpp(108): warning C4305: '=' : 'double' から 'float' へ切り詰めます。
+     1>EnemyMove.cpp(116): warning C4305: '=' : 'double' から 'float' へ切り詰めます。
+     1>EnemyMove.cpp(123): warning C4305: '=' : 'double' から 'float' へ切り詰めます。
+     1>EnemyMove.cpp(131): warning C4305: '=' : 'double' から 'float' へ切り詰めます。
+     1>EnemyMove.cpp(146): warning C4305: '=' : 'double' から 'float' へ切り詰めます。
+     1>EnemyMove.cpp(153): warning C4305: '=' : 'double' から 'float' へ切り詰めます。
+     1>EnemyMove.cpp(161): warning C4305: '=' : 'double' から 'float' へ切り詰めます。
+     1>EnemyMove.cpp(168): warning C4305: '=' : 'double' から 'float' へ切り詰めます。
+     1>EnemyMove.cpp(176): warning C4305: '=' : 'double' から 'float' へ切り詰めます。
+     1>EnemyMove.cpp(184): warning C4305: '=' : 'double' から 'float' へ切り詰めます。
+       ResourceCompile:
+         すべての出力が最新のものです。
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\arika\Documents\Visual Studio 2010\Projects\AirBreakers\Release\AirBreakers.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\arika\Documents\Visual Studio 2010\Projects\AirBreakers\AirBreakers\DxLib_VC" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\AirBreakers.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\arika\Documents\Visual Studio 2010\Projects\AirBreakers\Release\AirBreakers.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\arika\Documents\Visual Studio 2010\Projects\AirBreakers\Release\AirBreakers.lib" /MACHINE:X86 Release\Resource.res
+         Release\Input.obj
+         Release\Audio.obj
+         Release\Background.obj
+         Release\BaseInterval.obj
+         Release\BasePhase.obj
+         Release\BaseScene.obj
+         Release\BigUnit.obj
+         Release\Bullet.obj
+         Release\burn.obj
+         Release\cloud.obj
+         Release\effect.obj
+         Release\Enemy.obj
+         Release\EnemyMove.obj
+         Release\EnemyOrder.obj
+         Release\EnemyShot.obj
+         Release\fps.obj
+         Release\Game.obj
+         Release\IIntervalChanger.obj
+         Release\IntervalMaterial.obj
+         Release\IntervalMenu.obj
+         Release\IntervalMgr.obj
+         Release\IntervalSave.obj
+         Release\IntervalStageSelect.obj
+         Release\IntervalSubwepon.obj
+         Release\IPhaseChanger.obj
+         Release\ISceneChanger.obj
+         Release\Item.obj
+         Release\matBackGround.obj
+         Release\Material.obj
+         Release\Materialbox.obj
+         Release\MenuMgr.obj
+         Release\PasPlay.obj
+         Release\PasStandby.obj
+         Release\PhaseMgr.obj
+         Release\PhasePlayClear.obj
+         Release\PhasePlayGameover.obj
+         Release\PhasePlayResult.obj
+         Release\PhasePlayStart.obj
+         Release\PhasePlayWarning.obj
+         Release\Player.obj
+         Release\SceneMgr.obj
+         Release\seqInterval.obj
+         Release\main.obj
+         Release\Menu.obj
+         Release\Object.obj
+         Release\seqPlay.obj
+         Release\Stage.obj
+         Release\Subweponbox.obj
+         Release\PlayerUnit.obj
+         Release\ScoreBoard.obj
+         Release\seqClear.obj
+         Release\seqTest.obj
+         Release\SubWepon.obj
+         Release\seqTitle.obj
+         Release\SubweponShooter.obj
+         Release\Unit.obj
+         Release\UnitAdmin.obj
+         Release\View.obj
+         コード生成しています。
+         コード生成が終了しました。
+         AirBreakers.vcxproj -> C:\Users\arika\Documents\Visual Studio 2010\Projects\AirBreakers\Release\AirBreakers.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\arika\Documents\Visual Studio 2010\Projects\AirBreakers\Release\AirBreakers.exe;#1" /manifest Release\AirBreakers.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         ファイル "Release\AirBreakers.unsuccessfulbuild" を削除しています。
+         "Release\AirBreakers.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "C:\Users\arika\Documents\Visual Studio 2010\Projects\AirBreakers\AirBreakers\AirBreakers.vcxproj" (build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:05.82

@@ -1,0 +1,537 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Game">
+      <UniqueIdentifier>{77aa8c6d-9048-4403-a6e1-3032eb899940}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Player">
+      <UniqueIdentifier>{e0640b9e-8d9f-4a8a-aecd-efedd2acfd78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Utility">
+      <UniqueIdentifier>{8038fc60-eb43-4898-9b0e-b430e52f4022}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソースファイル">
+      <UniqueIdentifier>{ef4568db-100c-476d-93fa-c538380fe551}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Scene">
+      <UniqueIdentifier>{3fc63d99-3ae4-4f8e-a651-2a4ea29bb13a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Utility\Menu">
+      <UniqueIdentifier>{1c398583-a297-4f02-8f83-c061d5f27bd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Scene\SeqPlay">
+      <UniqueIdentifier>{a388e2c1-912e-444a-bd7f-1023eaaf138e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Scene\SeqPlay\PasPlay">
+      <UniqueIdentifier>{655c93de-e42b-41c2-b8dc-5eaaf6b668ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Scene\SeqInterval">
+      <UniqueIdentifier>{d9eed9f6-ccb8-4caa-ae5c-5b964f34ae1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Scene\SeqClear">
+      <UniqueIdentifier>{7301eaee-1818-4800-836c-a105a15fef64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Scene\SeqTest">
+      <UniqueIdentifier>{b0bf4fb7-776f-449e-b25f-ffad6d65c8f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Scene\SeqTitle">
+      <UniqueIdentifier>{79bdb46c-6dfa-45ec-ad21-a1a0204d2d7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Scene\SceneMgr">
+      <UniqueIdentifier>{1c50549f-a842-4494-bc31-6b141af8a73e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Scene\SeqPlay\PasPlay\EnemyWorker">
+      <UniqueIdentifier>{fd5382bf-2ee9-41b8-a73b-d62ca13ed419}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Scene\SeqPlay\PasPlay\stage">
+      <UniqueIdentifier>{58fffeb1-37e9-4c59-9966-b795180c7fcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Scene\SeqPlay\PasPlay\Object">
+      <UniqueIdentifier>{b9d23c9b-e173-4509-bfc4-92b721780ac7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Scene\SeqPlay\PasPlay\Object\Items">
+      <UniqueIdentifier>{87bd0f64-adfc-4326-bd32-7c40b59f312f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Scene\SeqPlay\PasPlay\Object\Bullet">
+      <UniqueIdentifier>{691b5336-1bc0-4c5e-bfb5-67ae4c8b8b1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Scene\SeqPlay\PasPlay\Object\Effect">
+      <UniqueIdentifier>{360abe53-eb7c-4c2e-abdd-6682cfecce53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Scene\SeqPlay\PasPlay\Object\Unit">
+      <UniqueIdentifier>{2fa62529-fc9a-4f7e-9253-78c0da1c9e1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Scene\SeqPlay\PasPlay\Object\Unit\Enemy">
+      <UniqueIdentifier>{3ade4b3e-8ef5-47f3-874b-53ecd2dcd827}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Scene\SeqPlay\PasPlay\Object\Unit\Enemy\Boss">
+      <UniqueIdentifier>{74132d67-b845-41b1-b1eb-e842f853da01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Scene\SeqPlay\PasPlay\Object\Unit\PlayerUnit">
+      <UniqueIdentifier>{99680868-7fd6-4027-b887-f280d17af819}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Scene\SeqPlay\PasPlay\Board">
+      <UniqueIdentifier>{6b2b1634-a1c5-4679-913e-1af1424c5d45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Scene\SeqPlay\PasPlay\Background">
+      <UniqueIdentifier>{d87ea5c3-89ad-43c7-8630-6fc9ed086472}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Scene\SeqInterval\IntervalMgr">
+      <UniqueIdentifier>{3f3c74b5-ec8e-4a8b-83bb-ad2083fc1f5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Scene\SeqInterval\IntervalStageSelect">
+      <UniqueIdentifier>{faf9d445-a651-4414-8650-a03654106c6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Scene\SeqInterval\IntervalSubwepon">
+      <UniqueIdentifier>{49979eb4-e1c1-43ae-a949-0ca1d73a0755}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Scene\SeqInterval\IntervalSave">
+      <UniqueIdentifier>{c2273beb-12ef-4c05-9240-1d4ab5a7ebeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Scene\SeqInterval\IntervalMenu">
+      <UniqueIdentifier>{a469f393-dce1-4ed3-a1df-f5241bf3a94b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Scene\SeqInterval\IntervalMaterial">
+      <UniqueIdentifier>{869001d5-898e-4908-9e38-81db23bb4439}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Scene\SeqPlay\PasPlay\Object\Unit\Enemy\MoveWork">
+      <UniqueIdentifier>{80346e92-28f4-4b67-b4e1-c3f753de48d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Scene\SeqPlay\PasPlay\UnitAdmin">
+      <UniqueIdentifier>{8c33391a-6fd9-4908-8844-e1894d70543e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Utility\State">
+      <UniqueIdentifier>{9fd99313-db22-4634-b723-9d4920badd37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Scene\SeqPlay\StageMgr">
+      <UniqueIdentifier>{4664c2e9-8e7a-4b4f-9ee7-89d8409db4de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Scene\SeqPlay\StageMgr\Stage01">
+      <UniqueIdentifier>{677e688d-67ec-44c2-83cf-08ddedcdcab1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Scene\SeqTitle\CTitleTop">
+      <UniqueIdentifier>{410f8653-72c6-4d47-bf58-50688b3766c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Scene\SeqTitle\LoadInTitle">
+      <UniqueIdentifier>{536bf705-4161-4d79-b0d4-dcc18925165f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Scene\SeqTitle\MenuInTitle">
+      <UniqueIdentifier>{0c7fa671-074d-461c-92f7-b4418126215e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Scene\SeqTitle\OptionInTitle">
+      <UniqueIdentifier>{1f80f6ad-7252-4e54-b469-ed632c68ab96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Scene\SeqTitle\TitleMgr">
+      <UniqueIdentifier>{7b985799-30f0-4c09-b85b-f7a54e3e376b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Effect">
+      <UniqueIdentifier>{2f9cb58c-23cf-41be-aa4c-8d98a89f70d7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="View.cpp">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="seqClear.cpp">
+      <Filter>ソース ファイル\Game\Scene\SeqClear</Filter>
+    </ClCompile>
+    <ClCompile Include="seqTitle.cpp">
+      <Filter>ソース ファイル\Game\Scene\SeqTitle</Filter>
+    </ClCompile>
+    <ClCompile Include="seqPlay.cpp">
+      <Filter>ソース ファイル\Game\Scene\SeqPlay</Filter>
+    </ClCompile>
+    <ClCompile Include="seqTest.cpp">
+      <Filter>ソース ファイル\Game\Scene\SeqTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>ソース ファイル\Game\Scene\SeqPlay\PasPlay\Object\Unit\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>ソース ファイル\Game\Scene\SeqPlay\PasPlay\Object\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>ソース ファイル\Game\Scene\SeqPlay\PasPlay\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>ソース ファイル\Game\Scene\SeqPlay\PasPlay\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="cloud.cpp">
+      <Filter>ソース ファイル\Game\Scene\SeqPlay\PasPlay\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="seqInterval.cpp">
+      <Filter>ソース ファイル\Game\Scene\SeqInterval</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreBoard.cpp">
+      <Filter>ソース ファイル\Game\Scene\SeqPlay\PasPlay\Board</Filter>
+    </ClCompile>
+    <ClCompile Include="matBackGround.cpp">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Subweponbox.cpp">
+      <Filter>ソース ファイル\Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="SubWepon.cpp">
+      <Filter>ソース ファイル\Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>ソース ファイル\Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Materialbox.cpp">
+      <Filter>ソース ファイル\Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>ソース ファイル\Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>ソース ファイル\Game\Scene\SeqPlay\PasPlay\Object\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>ソース ファイル\Game\Scene\SeqPlay\PasPlay\Object\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="fps.cpp">
+      <Filter>ソース ファイル\Game\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Input.cpp">
+      <Filter>ソース ファイル\Game\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>ソース ファイル\Game\Scene\SeqPlay\PasPlay\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>ソース ファイル\Game\Utility\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuMgr.cpp">
+      <Filter>ソース ファイル\Game\Utility\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="burn.cpp">
+      <Filter>ソース ファイル\Game\Scene\SeqPlay\PasPlay\Object\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="PasPlay.cpp">
+      <Filter>ソース ファイル\Game\Scene\SeqPlay\PasPlay</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerUnit.cpp">
+      <Filter>ソース ファイル\Game\Scene\SeqPlay\PasPlay\Object\Unit\PlayerUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseScene.cpp">
+      <Filter>ソース ファイル\Game\Scene\SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ISceneChanger.cpp">
+      <Filter>ソース ファイル\Game\Scene\SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>ソース ファイル\Game\Scene\SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyOrder.cpp">
+      <Filter>ソース ファイル\Game\Scene\SeqPlay\PasPlay\EnemyWorker</Filter>
+    </ClCompile>
+    <ClCompile Include="IntervalMgr.cpp">
+      <Filter>ソース ファイル\Game\Scene\SeqInterval\IntervalMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="IIntervalChanger.cpp">
+      <Filter>ソース ファイル\Game\Scene\SeqInterval\IntervalMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseInterval.cpp">
+      <Filter>ソース ファイル\Game\Scene\SeqInterval\IntervalMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="IntervalMenu.cpp">
+      <Filter>ソース ファイル\Game\Scene\SeqInterval\IntervalMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="IntervalStageSelect.cpp">
+      <Filter>ソース ファイル\Game\Scene\SeqInterval\IntervalStageSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="IntervalSubwepon.cpp">
+      <Filter>ソース ファイル\Game\Scene\SeqInterval\IntervalSubwepon</Filter>
+    </ClCompile>
+    <ClCompile Include="IntervalSave.cpp">
+      <Filter>ソース ファイル\Game\Scene\SeqInterval\IntervalSave</Filter>
+    </ClCompile>
+    <ClCompile Include="IntervalMaterial.cpp">
+      <Filter>ソース ファイル\Game\Scene\SeqInterval\IntervalMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyMove.cpp">
+      <Filter>ソース ファイル\Game\Scene\SeqPlay\PasPlay\Object\Unit\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyShot.cpp">
+      <Filter>ソース ファイル\Game\Scene\SeqPlay\PasPlay\Object\Unit\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="SubweponShooter.cpp">
+      <Filter>ソース ファイル\Game\Scene\SeqPlay\PasPlay\Object\Unit\PlayerUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>ソース ファイル\Game\Scene\SeqPlay\PasPlay\Object\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="BigUnit.cpp">
+      <Filter>ソース ファイル\Game\Scene\SeqPlay\PasPlay\Object\Unit\Enemy\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio.cpp">
+      <Filter>ソース ファイル\Game\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="PhasePlayClear.cpp">
+      <Filter>ソース ファイル\Game\Scene\SeqPlay\PasPlay</Filter>
+    </ClCompile>
+    <ClCompile Include="PhasePlayResult.cpp">
+      <Filter>ソース ファイル\Game\Scene\SeqPlay\PasPlay</Filter>
+    </ClCompile>
+    <ClCompile Include="PhasePlayStart.cpp">
+      <Filter>ソース ファイル\Game\Scene\SeqPlay\PasPlay</Filter>
+    </ClCompile>
+    <ClCompile Include="PhasePlayGameover.cpp">
+      <Filter>ソース ファイル\Game\Scene\SeqPlay\PasPlay</Filter>
+    </ClCompile>
+    <ClCompile Include="PhasePlayWarning.cpp">
+      <Filter>ソース ファイル\Game\Scene\SeqPlay\PasPlay</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitAdmin.cpp">
+      <Filter>ソース ファイル\Game\Scene\SeqPlay\PasPlay\UnitAdmin</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>ソース ファイル\Game\Utility\State</Filter>
+    </ClCompile>
+    <ClCompile Include="IStage.cpp">
+      <Filter>ソース ファイル\Game\Scene\SeqPlay\StageMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseStage.cpp">
+      <Filter>ソース ファイル\Game\Scene\SeqPlay\StageMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage01.cpp">
+      <Filter>ソース ファイル\Game\Scene\SeqPlay\StageMgr\Stage01</Filter>
+    </ClCompile>
+    <ClCompile Include="StageMgr.cpp">
+      <Filter>ソース ファイル\Game\Scene\SeqPlay\StageMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Record.cpp">
+      <Filter>ソース ファイル\Game\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Images.cpp">
+      <Filter>ソース ファイル\Game\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="ITitleChanger.cpp">
+      <Filter>ソース ファイル\Game\Scene\SeqTitle\TitleMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleMgr.cpp">
+      <Filter>ソース ファイル\Game\Scene\SeqTitle\TitleMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseTitle.cpp">
+      <Filter>ソース ファイル\Game\Scene\SeqTitle\TitleMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadInTitle.cpp">
+      <Filter>ソース ファイル\Game\Scene\SeqTitle\LoadInTitle</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuInTitle.cpp">
+      <Filter>ソース ファイル\Game\Scene\SeqTitle\MenuInTitle</Filter>
+    </ClCompile>
+    <ClCompile Include="TopInTitle.cpp">
+      <Filter>ソース ファイル\Game\Scene\SeqTitle\CTitleTop</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionInTitle.cpp">
+      <Filter>ソース ファイル\Game\Scene\SeqTitle\OptionInTitle</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectsError.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="view.h">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="seqClear.h">
+      <Filter>ソース ファイル\Game\Scene\SeqClear</Filter>
+    </ClInclude>
+    <ClInclude Include="seqTitle.h">
+      <Filter>ソース ファイル\Game\Scene\SeqTitle</Filter>
+    </ClInclude>
+    <ClInclude Include="seqPlay.h">
+      <Filter>ソース ファイル\Game\Scene\SeqPlay</Filter>
+    </ClInclude>
+    <ClInclude Include="seqTest.h">
+      <Filter>ソース ファイル\Game\Scene\SeqTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>ソース ファイル\Game\Scene\SeqPlay\PasPlay\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>ソース ファイル\Game\Scene\SeqPlay\PasPlay\Object\Unit\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>ソース ファイル\Game\Scene\SeqPlay\PasPlay\Object\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>ソース ファイル\Game\Scene\SeqPlay\PasPlay\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>ソース ファイル\Game\Scene\SeqPlay\PasPlay\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="cloud.h">
+      <Filter>ソース ファイル\Game\Scene\SeqPlay\PasPlay\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="seqInterval.h">
+      <Filter>ソース ファイル\Game\Scene\SeqInterval</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreBoard.h">
+      <Filter>ソース ファイル\Game\Scene\SeqPlay\PasPlay\Board</Filter>
+    </ClInclude>
+    <ClInclude Include="matBackGround.h">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Subweponbox.h">
+      <Filter>ソース ファイル\Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="SubWepon.h">
+      <Filter>ソース ファイル\Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>ソース ファイル\Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Materialbox.h">
+      <Filter>ソース ファイル\Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>ソース ファイル\Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>ソース ファイル\Game\Scene\SeqPlay\PasPlay\Object\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>ソース ファイル\Game\Scene\SeqPlay\PasPlay\Object\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="fps.h">
+      <Filter>ソース ファイル\Game\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Input.h">
+      <Filter>ソース ファイル\Game\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>ソース ファイル\Game\Utility\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuMgr.h">
+      <Filter>ソース ファイル\Game\Utility\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="burn.h">
+      <Filter>ソース ファイル\Game\Scene\SeqPlay\PasPlay\Object\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="PasPlay.h">
+      <Filter>ソース ファイル\Game\Scene\SeqPlay\PasPlay</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerUnit.h">
+      <Filter>ソース ファイル\Game\Scene\SeqPlay\PasPlay\Object\Unit\PlayerUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>ソース ファイル\Game\Scene\SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseScene.h">
+      <Filter>ソース ファイル\Game\Scene\SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ISceneChanger.h">
+      <Filter>ソース ファイル\Game\Scene\SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyOrder.h">
+      <Filter>ソース ファイル\Game\Scene\SeqPlay\PasPlay\EnemyWorker</Filter>
+    </ClInclude>
+    <ClInclude Include="IntervalMgr.h">
+      <Filter>ソース ファイル\Game\Scene\SeqInterval\IntervalMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Task.h">
+      <Filter>ソース ファイル\Game\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="IIntervalChanger.h">
+      <Filter>ソース ファイル\Game\Scene\SeqInterval\IntervalMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseInterval.h">
+      <Filter>ソース ファイル\Game\Scene\SeqInterval\IntervalMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="IntervalMenu.h">
+      <Filter>ソース ファイル\Game\Scene\SeqInterval\IntervalMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="IntervalStageSelect.h">
+      <Filter>ソース ファイル\Game\Scene\SeqInterval\IntervalStageSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="IntervalSubwepon.h">
+      <Filter>ソース ファイル\Game\Scene\SeqInterval\IntervalSubwepon</Filter>
+    </ClInclude>
+    <ClInclude Include="IntervalSave.h">
+      <Filter>ソース ファイル\Game\Scene\SeqInterval\IntervalSave</Filter>
+    </ClInclude>
+    <ClInclude Include="IntervalMaterial.h">
+      <Filter>ソース ファイル\Game\Scene\SeqInterval\IntervalMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>ソース ファイル\Game\Scene\SeqPlay\PasPlay\Object\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="BigUnit.h">
+      <Filter>ソース ファイル\Game\Scene\SeqPlay\PasPlay\Object\Unit\Enemy\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.h">
+      <Filter>ソース ファイル\Game\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitAdmin.h">
+      <Filter>ソース ファイル\Game\Scene\SeqPlay\PasPlay\UnitAdmin</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>ソース ファイル\Game\Utility\State</Filter>
+    </ClInclude>
+    <ClInclude Include="IStage.h">
+      <Filter>ソース ファイル\Game\Scene\SeqPlay\StageMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseStage.h">
+      <Filter>ソース ファイル\Game\Scene\SeqPlay\StageMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage01.h">
+      <Filter>ソース ファイル\Game\Scene\SeqPlay\StageMgr\Stage01</Filter>
+    </ClInclude>
+    <ClInclude Include="StageMgr.h">
+      <Filter>ソース ファイル\Game\Scene\SeqPlay\StageMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Record.h">
+      <Filter>ソース ファイル\Game\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Images.h">
+      <Filter>ソース ファイル\Game\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="ITitleChanger.h">
+      <Filter>ソース ファイル\Game\Scene\SeqTitle\TitleMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleMgr.h">
+      <Filter>ソース ファイル\Game\Scene\SeqTitle\TitleMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseTitle.h">
+      <Filter>ソース ファイル\Game\Scene\SeqTitle\TitleMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadInTitle.h">
+      <Filter>ソース ファイル\Game\Scene\SeqTitle\LoadInTitle</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuInTitle.h">
+      <Filter>ソース ファイル\Game\Scene\SeqTitle\MenuInTitle</Filter>
+    </ClInclude>
+    <ClInclude Include="TopInTitle.h">
+      <Filter>ソース ファイル\Game\Scene\SeqTitle\CTitleTop</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionInTitle.h">
+      <Filter>ソース ファイル\Game\Scene\SeqTitle\OptionInTitle</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectsError.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\pictuer\icon_windfield.ico">
+      <Filter>リソースファイル</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\Resource.rc">
+      <Filter>リソースファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

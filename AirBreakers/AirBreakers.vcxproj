@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{91A94C5B-F559-4BC0-BE68-B3FA8C6911EA}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>stg_sample02</RootNamespace>
+    <ProjectName>AirBreakers</ProjectName>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <AdditionalIncludeDirectories>C:\DxLib\DxLib_VC_3.16d;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\DxLib\DxLib_VC_3.16d;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalIncludeDirectories>C:\DxLib\DxLib_VC_3.16d;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>C:\DxLib\DxLib_VC_3.16d;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\Input.cpp" />
+    <ClCompile Include="Audio.cpp" />
+    <ClCompile Include="Background.cpp" />
+    <ClCompile Include="BaseInterval.cpp" />
+    <ClCompile Include="BaseScene.cpp" />
+    <ClCompile Include="BaseStage.cpp" />
+    <ClCompile Include="BaseTitle.cpp" />
+    <ClCompile Include="BigUnit.cpp" />
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="burn.cpp" />
+    <ClCompile Include="cloud.cpp" />
+    <ClCompile Include="effect.cpp" />
+    <ClCompile Include="EffectsError.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="EnemyMove.cpp" />
+    <ClCompile Include="EnemyOrder.cpp" />
+    <ClCompile Include="EnemyShot.cpp" />
+    <ClCompile Include="fps.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="IIntervalChanger.cpp" />
+    <ClCompile Include="Images.cpp" />
+    <ClCompile Include="IntervalMaterial.cpp" />
+    <ClCompile Include="IntervalMenu.cpp" />
+    <ClCompile Include="IntervalMgr.cpp" />
+    <ClCompile Include="IntervalSave.cpp" />
+    <ClCompile Include="IntervalStageSelect.cpp" />
+    <ClCompile Include="IntervalSubwepon.cpp" />
+    <ClCompile Include="ISceneChanger.cpp" />
+    <ClCompile Include="IStage.cpp" />
+    <ClCompile Include="Item.cpp" />
+    <ClCompile Include="ITitleChanger.cpp" />
+    <ClCompile Include="LoadInTitle.cpp" />
+    <ClCompile Include="matBackGround.cpp" />
+    <ClCompile Include="Material.cpp" />
+    <ClCompile Include="Materialbox.cpp" />
+    <ClCompile Include="MenuInTitle.cpp" />
+    <ClCompile Include="MenuMgr.cpp" />
+    <ClCompile Include="OptionInTitle.cpp" />
+    <ClCompile Include="PasPlay.cpp" />
+    <ClCompile Include="PhasePlayClear.cpp" />
+    <ClCompile Include="PhasePlayGameover.cpp" />
+    <ClCompile Include="PhasePlayResult.cpp" />
+    <ClCompile Include="PhasePlayStart.cpp" />
+    <ClCompile Include="PhasePlayWarning.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Record.cpp" />
+    <ClCompile Include="SceneMgr.cpp" />
+    <ClCompile Include="seqInterval.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="Object.cpp" />
+    <ClCompile Include="seqPlay.cpp" />
+    <ClCompile Include="Stage.cpp" />
+    <ClCompile Include="Stage01.cpp" />
+    <ClCompile Include="StageMgr.cpp" />
+    <ClCompile Include="Subweponbox.cpp" />
+    <ClCompile Include="PlayerUnit.cpp" />
+    <ClCompile Include="ScoreBoard.cpp" />
+    <ClCompile Include="seqClear.cpp" />
+    <ClCompile Include="seqTest.cpp" />
+    <ClCompile Include="SubWepon.cpp" />
+    <ClCompile Include="seqTitle.cpp" />
+    <ClCompile Include="SubweponShooter.cpp" />
+    <ClCompile Include="TitleMgr.cpp" />
+    <ClCompile Include="TopInTitle.cpp" />
+    <ClCompile Include="Transform.cpp" />
+    <ClCompile Include="Unit.cpp" />
+    <ClCompile Include="UnitAdmin.cpp" />
+    <ClCompile Include="View.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\Input.h" />
+    <ClInclude Include="Audio.h" />
+    <ClInclude Include="Background.h" />
+    <ClInclude Include="BaseInterval.h" />
+    <ClInclude Include="BaseScene.h" />
+    <ClInclude Include="BaseStage.h" />
+    <ClInclude Include="BaseTitle.h" />
+    <ClInclude Include="BigUnit.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="burn.h" />
+    <ClInclude Include="cloud.h" />
+    <ClInclude Include="effect.h" />
+    <ClInclude Include="EffectsError.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="EnemyOrder.h" />
+    <ClInclude Include="fps.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="IIntervalChanger.h" />
+    <ClInclude Include="Images.h" />
+    <ClInclude Include="IntervalMaterial.h" />
+    <ClInclude Include="IntervalMenu.h" />
+    <ClInclude Include="IntervalMgr.h" />
+    <ClInclude Include="IntervalSave.h" />
+    <ClInclude Include="IntervalStageSelect.h" />
+    <ClInclude Include="IntervalSubwepon.h" />
+    <ClInclude Include="ISceneChanger.h" />
+    <ClInclude Include="IStage.h" />
+    <ClInclude Include="Item.h" />
+    <ClInclude Include="ITitleChanger.h" />
+    <ClInclude Include="LoadInTitle.h" />
+    <ClInclude Include="matBackGround.h" />
+    <ClInclude Include="Material.h" />
+    <ClInclude Include="Materialbox.h" />
+    <ClInclude Include="MenuInTitle.h" />
+    <ClInclude Include="MenuMgr.h" />
+    <ClInclude Include="OptionInTitle.h" />
+    <ClInclude Include="PasPlay.h" />
+    <ClInclude Include="Record.h" />
+    <ClInclude Include="Stage01.h" />
+    <ClInclude Include="StageMgr.h" />
+    <ClInclude Include="Task.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="SceneMgr.h" />
+    <ClInclude Include="seqInterval.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="seqPlay.h" />
+    <ClInclude Include="Subweponbox.h" />
+    <ClInclude Include="PlayerUnit.h" />
+    <ClInclude Include="ScoreBoard.h" />
+    <ClInclude Include="seqClear.h" />
+    <ClInclude Include="seqTest.h" />
+    <ClInclude Include="Stage.h" />
+    <ClInclude Include="SubWepon.h" />
+    <ClInclude Include="seqTitle.h" />
+    <ClInclude Include="TitleMgr.h" />
+    <ClInclude Include="TopInTitle.h" />
+    <ClInclude Include="Transform.h" />
+    <ClInclude Include="Unit.h" />
+    <ClInclude Include="UnitAdmin.h" />
+    <ClInclude Include="view.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\pictuer\icon_windfield.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\Resource.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

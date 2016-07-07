@@ -1,0 +1,128 @@
+0:システムの情報を出力します
+1:	ＤＸライブラリ Ver3.13e
+2:	論理プロセッサの数 : 4
+3:	ＯＳ  Windows7 ( Build 7601 Service Pack 1 )
+104:	現時点のＣＰＵ動作速度：大体3.27GHz
+105:	ＭＭＸ命令を使用します
+106:	ＳＳＥ命令が使用可能です
+106:	ＳＳＥ２命令が使用可能です
+107:	ＣＰＵベンダ：GenuineIntel
+110:	ＣＰＵ名：        Intel(R) Core(TM) i5-2500 CPU @ 3.30GHz
+112:ＣＯＭの初期化... 成功しました
+2485:メモリ総量:8163.36MB  空きメモリ領域:2013.30MB 
+2487:タイマーの精度を検査します
+2487:精度結果 更新回数 マルチメディアタイマー：0  パフォーマンスカウンター：60
+2488: パフォーマンスカウンターを使用します タイマー精度 : 3215.371000 KHz 
+2489: ソフトの二重起動検査... 二重起動はされていませんでした
+2490:ウインドウクラスを登録します... 登録に成功しました
+2492:ウインドウモード起動用のウインドウを作成します
+3341:ウインドウの作成に成功しました
+3341:ウインドウを表示します
+3358:ＩＭＥを無効にしました
+3359:ウインドウスタイルをウインドウモード用に変更します... 完了
+3387:DirectInput関係初期化処理
+3388:	XInput DLL の読み込み中... 成功
+3405:	DirectInput7 の取得中... 成功
+3440:		引き続き初期化処理... 初期化成功
+3443:	ジョイパッドの初期化... 
+3456:	ジョイパッドの初期化は正常に終了しました
+3457:	マウスデバイスの初期化... 初期化成功
+3460:	キーボードデバイスの初期化... 初期化成功
+3462:DirectInput 関連の初期化は正常に終了しました
+3466:DirectSound の初期化を行います
+3467:DirectSound インターフェースの取得を行います....  成功
+3477:引き続きインターフェースの初期化処理...  成功
+3528:	DirectSound デバイスを列挙します
+3532:		モジュール名:                 ドライバ記述:プライマリ サウンド ドライバー 
+3533:		モジュール名:{0.0.0.00000000}.{7021b49a-f1ae-4a1b-86b6-1bb1a3181342}  ドライバ記述:スピーカー (USB PnP Sound Device) 
+3534:		モジュール名:{0.0.0.00000000}.{ba143f3b-f9c0-4a45-a17f-6a14751f9b92}  ドライバ記述:Realtek Digital Output (Realtek High Definition Audio) 
+3534:		モジュール名:{0.0.0.00000000}.{eade5b58-1335-44e5-b0b4-dbe9d5142ca1}  ドライバ記述:E2241-1 (NVIDIA High Definition Audio) 
+3535:	最大サンプリングレート:200.00KHz 最小サンプリングレート:0.10KHz 
+3536:	総サウンドメモリ領域:0.00KB 空きサウンドメモリ領域:0.00KB 
+
+3536:	利用可能サンプリング精度
+3537:	 プライマリ １６bit = OK  ８bit = OK 
+3538:	 セカンダリ １６bit = OK  ８bit = OK 
+
+3538:	利用可能チャンネル
+3539:	 プライマリ MONO = OK  STEREO = OK 
+3540:	 セカンダリ MONO = OK  STEREO = OK 
+
+3541:DirectSound の初期化は正常に終了しました
+3553:DirectDraw オブジェクトの取得を行います....  成功
+3563:引き続き初期化処理... 初期化に成功しました
+5192:IDirect3D9Ex オブジェクトを取得します.... 成功
+5203:IDirect3DDevice9Ex オブジェクトを取得します.... ハードウエア頂点演算を使用します
+6298:成功
+6299:Driver:nvd3dum.dll  Description:NVIDIA GeForce GTX 560 Ti  
+6300:画面のフォーマットは D3DFMT_X8R8G8B8 です
+6302:16bit Zバッファフォーマットは D3DFMT_D16 です
+6303:24bit Zバッファフォーマットは D3DFMT_D24X8 です
+6304:32bit Zバッファフォーマットは D3DFMT_D24X8 です
+6305:16bit カラーフォーマットは D3DFMT_R5G6B5 です
+6305:32bit カラーフォーマットは D3DFMT_X8R8G8B8 です
+6306:アルファ付き 16bit カラーフォーマットは D3DFMT_A4R4G4B4 です
+6307:アルファ付き 32bit カラーフォーマットは D3DFMT_A8R8G8B8 です
+6308:アルファテスト用 16bit カラーフォーマットは D3DFMT_A1R5G5B5 です
+6309:アルファテスト用 32bit カラーフォーマットは D3DFMT_A8R8G8B8 です
+6309:ＤＸＴ１テクスチャフォーマットはD3DFMT_DXT1 です
+6310:ＤＸＴ２テクスチャフォーマットはD3DFMT_DXT2 です
+6311:ＤＸＴ３テクスチャフォーマットはD3DFMT_DXT3 です
+6312:ＤＸＴ４テクスチャフォーマットはD3DFMT_DXT4 です
+6313:ＤＸＴ５テクスチャフォーマットはD3DFMT_DXT5 です
+6314:描画用 16bit カラーフォーマットは D3DFMT_R5G5B5 です
+6316:描画用 32bit カラーフォーマットは D3DFMT_X8R8G8B8 です
+6317:描画用アルファ付き 32bit カラーフォーマットは D3DFMT_A8R8G8B8 です
+6318:描画用ABGR整数16ビット型カラーフォーマットは D3DFMT_A16B16G16R16 です
+6319:描画用ABGR浮動小数点16ビット型カラーフォーマットは D3DFMT_A16B16G16R16F です
+6320:描画用ABGR浮動小数点32ビット型カラーフォーマットは D3DFMT_A32B32G32R32F です
+6322:描画用１チャンネル整数8ビット型カラーフォーマットは D3DFMT_L8 です
+6323:描画用１チャンネル整数16ビット型カラーフォーマットは D3DFMT_L16 です
+6326:描画用１チャンネル浮動小数点16ビット型カラーフォーマットは D3DFMT_R16F です
+6327:描画用１チャンネル浮動小数点32ビット型カラーフォーマットは D3DFMT_R32F です
+6328:描画用２チャンネル整数8ビット型カラーフォーマットは D3DFMT_A8B8G8R8 です
+6329:描画用２チャンネル整数16ビット型カラーフォーマットは D3DFMT_G16R16 です
+6330:描画用２チャンネル浮動小数点16ビット型カラーフォーマットは D3DFMT_G16R16F です
+6331:描画用２チャンネル浮動小数点32ビット型カラーフォーマットは D3DFMT_G32R32F です
+6332:一度に描画できるプリミティブの最大数:16777215
+6333:対応している最大頂点インデックス:16777215
+6334:同時にレンダリングできるバッファの数:4
+6335:最大テクスチャサイズ　幅:16384 高さ:16384
+6336:テクスチャステージテンポラリレジスタ：使用可
+6337:減算合成のハードウェア対応：ネイティブ
+6338:ハードウェア頂点シェーダーバージョンコード：300
+6339:エミュレーション頂点シェーダーバージョンコード：エミュレーション無し
+6340:ピクセルシェーダーバージョンコード：300
+6347:バックバッファロック転送の時間:69nsec  一時的な描画可能バッファを使用した転送の時間:532nsec
+6348:バックバッファロックを使用します
+6349:Ｚバッファを作成します.... 成功
+6371:プログラマブルシェーダーを使用します
+
+6417:フォントの初期化を行います
+6418:フォントの初期化は正常に終了しました
+6419:文字コードバッファの初期化を行います... 完了しました
+7674:右記のファイルのオープンに失敗しました：C:\Users\arika\Documents\Visual Studio 2010\Projects\AirBreakers\AirBreakers\dat\audio\se\alart2.ogg
+7675:右記の音声ファイルのロードに失敗しました_1：C:\Users\arika\Documents\Visual Studio 2010\Projects\AirBreakers\AirBreakers\dat\audio\se\alart2.ogg
+7676:右記のファイルのオープンに失敗しました：C:\Users\arika\Documents\Visual Studio 2010\Projects\AirBreakers\AirBreakers\dat\audio\music\st011.mp3
+7677:右記の音声ファイルのロードに失敗しました_1：C:\Users\arika\Documents\Visual Studio 2010\Projects\AirBreakers\AirBreakers\dat\audio\music\st011.mp3
+7679:右記のファイルのオープンに失敗しました：C:\Users\arika\Documents\Visual Studio 2010\Projects\AirBreakers\AirBreakers\dat\audio\se\kati.ogg
+7679:右記の音声ファイルのロードに失敗しました_1：C:\Users\arika\Documents\Visual Studio 2010\Projects\AirBreakers\AirBreakers\dat\audio\se\kati.ogg
+8234:右記のファイルのオープンに失敗しました：C:\Users\arika\Documents\Visual Studio 2010\Projects\AirBreakers\AirBreakers\dat\audio\se\alart2.ogg
+8235:右記の音声ファイルのロードに失敗しました_1：C:\Users\arika\Documents\Visual Studio 2010\Projects\AirBreakers\AirBreakers\dat\audio\se\alart2.ogg
+8237:右記のファイルのオープンに失敗しました：C:\Users\arika\Documents\Visual Studio 2010\Projects\AirBreakers\AirBreakers\dat\audio\music\st011.mp3
+8238:右記の音声ファイルのロードに失敗しました_1：C:\Users\arika\Documents\Visual Studio 2010\Projects\AirBreakers\AirBreakers\dat\audio\music\st011.mp3
+8239:右記のファイルのオープンに失敗しました：C:\Users\arika\Documents\Visual Studio 2010\Projects\AirBreakers\AirBreakers\dat\audio\se\kati.ogg
+8239:右記の音声ファイルのロードに失敗しました_1：C:\Users\arika\Documents\Visual Studio 2010\Projects\AirBreakers\AirBreakers\dat\audio\se\kati.ogg
+14776:ウインドウを閉じようとしています
+14782:ウインドウが破棄されようとしています
+14785:ソフトを終了する準備が整いました
+14788:フォントの初期化を行います
+14789:フォントの初期化は正常に終了しました
+14803:Direct3DDevice9 の解放 2
+14836:d3d9.dll の解放 1
+14839:DirectInput 関連の終了処理... 完了
+14874:DirectSound の終了処理は正常に終了しました
+14907:
+14907:Alloc memory dump
+14908:	Total size:0(0.000kb)  Alloc num:0
+14908:

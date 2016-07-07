@@ -1,0 +1,96 @@
+﻿2015/02/16 10:24:36 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\arika\Documents\Visual Studio 2010\Projects\stg_sample02\stg_sample02\stg_sample02.vcxproj" (build ターゲット)。
+     1>InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "Debug\AirBreakers.unsuccessfulbuild" を作成しています。
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\DxLib\DxLib_VC /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Unit.cpp UnitAdmin.cpp
+         UnitAdmin.cpp
+     1>c:\users\arika\documents\visual studio 2010\projects\stg_sample02\stg_sample02\unitadmin.cpp(75): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 'sprintf' の宣言を確認してください。
+     1>c:\users\arika\documents\visual studio 2010\projects\stg_sample02\stg_sample02\unitadmin.cpp(145): warning C4244: '初期化中' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\users\arika\documents\visual studio 2010\projects\stg_sample02\stg_sample02\unitadmin.cpp(146): warning C4244: '初期化中' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\users\arika\documents\visual studio 2010\projects\stg_sample02\stg_sample02\unitadmin.cpp(152): warning C4244: '初期化中' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\users\arika\documents\visual studio 2010\projects\stg_sample02\stg_sample02\unitadmin.cpp(153): warning C4244: '初期化中' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\users\arika\documents\visual studio 2010\projects\stg_sample02\stg_sample02\unitadmin.cpp(273): warning C4305: '引数' : 'double' から 'float' へ切り詰めます。
+     1>c:\users\arika\documents\visual studio 2010\projects\stg_sample02\stg_sample02\unitadmin.cpp(273): warning C4244: '引数' : 'int' から 'float' への変換です。データが失われる可能性があります。
+         Unit.cpp
+     1>c:\users\arika\documents\visual studio 2010\projects\stg_sample02\stg_sample02\unit.cpp(36): warning C4244: '引数' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\users\arika\documents\visual studio 2010\projects\stg_sample02\stg_sample02\unit.cpp(36): warning C4244: '引数' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\users\arika\documents\visual studio 2010\projects\stg_sample02\stg_sample02\unit.cpp(36): warning C4244: '引数' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\users\arika\documents\visual studio 2010\projects\stg_sample02\stg_sample02\unit.cpp(36): warning C4244: '引数' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\users\arika\documents\visual studio 2010\projects\stg_sample02\stg_sample02\unit.cpp(37): warning C4244: '引数' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\users\arika\documents\visual studio 2010\projects\stg_sample02\stg_sample02\unit.cpp(37): warning C4244: '引数' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\users\arika\documents\visual studio 2010\projects\stg_sample02\stg_sample02\unit.cpp(37): warning C4244: '引数' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>c:\users\arika\documents\visual studio 2010\projects\stg_sample02\stg_sample02\unit.cpp(37): warning C4244: '引数' : 'float' から 'int' への変換です。データが失われる可能性があります。
+         コードを生成中...
+       ResourceCompile:
+         すべての出力が最新のものです。
+       ManifestResourceCompile:
+         すべての出力が最新のものです。
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\arika\Documents\Visual Studio 2010\Projects\stg_sample02\Debug\AirBreakers.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\DxLib\DxLib_VC kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\AirBreakers.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\arika\Documents\Visual Studio 2010\Projects\stg_sample02\Debug\AirBreakers.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\arika\Documents\Visual Studio 2010\Projects\stg_sample02\Debug\AirBreakers.lib" /MACHINE:X86 Debug\Resource.res
+         Debug\AirBreakers.exe.embed.manifest.res
+         Debug\Input.obj
+         Debug\Background.obj
+         Debug\BaseInterval.obj
+         Debug\BasePhase.obj
+         Debug\BaseScene.obj
+         Debug\Boss.obj
+         Debug\Bullet.obj
+         Debug\burn.obj
+         Debug\cloud.obj
+         Debug\effect.obj
+         Debug\Enemy.obj
+         Debug\EnemyMove.obj
+         Debug\EnemyOrder.obj
+         Debug\EnemyShot.obj
+         Debug\fps.obj
+         Debug\Game.obj
+         Debug\IIntervalChanger.obj
+         Debug\IntervalMaterial.obj
+         Debug\IntervalMenu.obj
+         Debug\IntervalMgr.obj
+         Debug\IntervalSave.obj
+         Debug\IntervalStageSelect.obj
+         Debug\IntervalSubwepon.obj
+         Debug\IPhaseChanger.obj
+         Debug\ISceneChanger.obj
+         Debug\matBackGround.obj
+         Debug\Material.obj
+         Debug\Materialbox.obj
+         Debug\MenuMgr.obj
+         Debug\PasPlay.obj
+         Debug\PasStandby.obj
+         Debug\PhaseMgr.obj
+         Debug\Player.obj
+         Debug\SceneMgr.obj
+         Debug\seqInterval.obj
+         Debug\main.obj
+         Debug\Menu.obj
+         Debug\Object.obj
+         Debug\seqPlay.obj
+         Debug\Stage.obj
+         Debug\Subweponbox.obj
+         Debug\PlayerUnit.obj
+         Debug\ScoreBoard.obj
+         Debug\seqClear.obj
+         Debug\seqTest.obj
+         Debug\SubWepon.obj
+         Debug\seqTitle.obj
+         Debug\Unit.obj
+         Debug\UnitAdmin.obj
+         Debug\View.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\AirBreakers.exe.embed.manifest" /manifest Debug\AirBreakers.exe.intermediate.manifest
+         すべての出力が最新のものです。
+       LinkEmbedManifest:
+         すべての出力が最新のものです。
+         stg_sample02.vcxproj -> C:\Users\arika\Documents\Visual Studio 2010\Projects\stg_sample02\Debug\AirBreakers.exe
+       FinalizeBuildStatus:
+         ファイル "Debug\AirBreakers.unsuccessfulbuild" を削除しています。
+         "Debug\AirBreakers.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "C:\Users\arika\Documents\Visual Studio 2010\Projects\stg_sample02\stg_sample02\stg_sample02.vcxproj" (build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:02.00
